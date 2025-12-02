@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd60352-36d3-48ff-aacd-338b9183cf34" name="Changes" comment="" />
+    <list default="true" id="2cd60352-36d3-48ff-aacd-338b9183cf34" name="Changes" comment="Start Project API Rest Assure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/BookedDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest_tests/AddNewCarTestsRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest_tests/LoginTestsRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/Base_Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Base_Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest_api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_api/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest_tests/RegistrationTestsRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest_tests/RegistrationTestsRest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +25,24 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -22,19 +50,160 @@
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="366H869JfhkIIbvKqIzYJOwRXBO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.LoginTestsRest.loginNegativeTest_UnregisteredUser.executor": "Run",
+    "Gradle.LoginTestsRest.loginNegative_UnregisteredUser.executor": "Run",
+    "Gradle.LoginTestsRest.loginPositiveTest.executor": "Run",
+    "Gradle.RegistrationTestsRest.registrationNegativeTest_EmptyField.executor": "Run",
+    "Gradle.RegistrationTestsRest.registrationNegativeTest_WrongEmail.executor": "Run",
+    "Gradle.RegistrationTestsRest.registrationNegativeTest_WrongPassword.executor": "Run",
+    "Gradle.RegistrationTestsRest.registrationPositiveTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Gradle.AddNewCarTestsRest.addNewCarPositiveTest">
+    <configuration name="AddNewCarTestsRest.addNewCarPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest_tests.AddNewCarTestsRest.addNewCarPositiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTestsRest.loginNegativeTest_UnregisteredUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest_tests.LoginTestsRest.loginNegativeTest_UnregisteredUser&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTestsRest.loginNegative_UnregisteredUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest_tests.LoginTestsRest.loginNegative_UnregisteredUser&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTestsRest.loginPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest_tests.LoginTestsRest.loginPositiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationTestsRest.registrationPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest_tests.RegistrationTestsRest.registrationPositiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AddNewCarTestsRest.addNewCarPositiveTest" />
+        <item itemvalue="Gradle.LoginTestsRest.loginPositiveTest" />
+        <item itemvalue="Gradle.RegistrationTestsRest.registrationPositiveTest" />
+        <item itemvalue="Gradle.LoginTestsRest.loginNegativeTest_UnregisteredUser" />
+        <item itemvalue="Gradle.LoginTestsRest.loginNegative_UnregisteredUser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +213,31 @@
       <option name="presentableId" value="Default" />
       <updated>1764319939313</updated>
     </task>
+    <task id="LOCAL-00001" summary="Start Project API Rest Assure">
+      <option name="closed" value="true" />
+      <created>1764324107931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764324107931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start Project API Rest Assure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start Project API Rest Assure" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/dto/RegistrationBodyDto.java</url>
+          <line>11</line>
+          <properties field="username" class="dto.RegistrationBodyDto" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
