@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd60352-36d3-48ff-aacd-338b9183cf34" name="Changes" comment="Start Project API Rest Assure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/BookedDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CarDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rest_tests/AddNewCarTestsRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rest_tests/LoginTestsRest.java" afterDir="false" />
+    <list default="true" id="2cd60352-36d3-48ff-aacd-338b9183cf34" name="Changes" comment="Api RestAssure&#10;LoginTestsRest, AddNewCarPositiveTest">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/Base_Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Base_Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest_api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_api/CarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rest_tests/RegistrationTestsRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest_tests/RegistrationTestsRest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +40,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="366H869JfhkIIbvKqIzYJOwRXBO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,23 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.LoginTestsRest.loginNegativeTest_UnregisteredUser.executor": "Run",
-    "Gradle.LoginTestsRest.loginNegative_UnregisteredUser.executor": "Run",
-    "Gradle.LoginTestsRest.loginPositiveTest.executor": "Run",
-    "Gradle.RegistrationTestsRest.registrationNegativeTest_EmptyField.executor": "Run",
-    "Gradle.RegistrationTestsRest.registrationNegativeTest_WrongEmail.executor": "Run",
-    "Gradle.RegistrationTestsRest.registrationNegativeTest_WrongPassword.executor": "Run",
-    "Gradle.RegistrationTestsRest.registrationPositiveTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AddNewCarTestsRest.addNewCarPositiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginTestsRest.loginNegativeTest_UnregisteredUser.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginTestsRest.loginNegative_UnregisteredUser.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginTestsRest.loginPositiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationTestsRest.registrationNegativeTest_EmptyField.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationTestsRest.registrationNegativeTest_WrongEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationTestsRest.registrationNegativeTest_WrongPassword.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationTestsRest.registrationPositiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.AddNewCarTestsRest.addNewCarPositiveTest">
+}</component>
+  <component name="RunManager" selected="Gradle.RegistrationTestsRest.registrationNegativeTest_EmptyField">
     <configuration name="AddNewCarTestsRest.addNewCarPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,30 +117,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTestsRest.loginNegative_UnregisteredUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;rest_tests.LoginTestsRest.loginNegative_UnregisteredUser&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="LoginTestsRest.loginPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,6 +131,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;rest_tests.LoginTestsRest.loginPositiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationTestsRest.registrationNegativeTest_EmptyField" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest_tests.RegistrationTestsRest.registrationNegativeTest_EmptyField&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationTestsRest.registrationNegativeTest_EmptyField" />
         <item itemvalue="Gradle.AddNewCarTestsRest.addNewCarPositiveTest" />
         <item itemvalue="Gradle.LoginTestsRest.loginPositiveTest" />
         <item itemvalue="Gradle.RegistrationTestsRest.registrationPositiveTest" />
         <item itemvalue="Gradle.LoginTestsRest.loginNegativeTest_UnregisteredUser" />
-        <item itemvalue="Gradle.LoginTestsRest.loginNegative_UnregisteredUser" />
       </list>
     </recent_temporary>
   </component>
@@ -221,12 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764324107931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Api RestAssure&#10;LoginTestsRest, AddNewCarPositiveTest">
+      <option name="closed" value="true" />
+      <created>1764702184988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764702184988</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start Project API Rest Assure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start Project API Rest Assure" />
+    <MESSAGE value="Api RestAssure&#10;LoginTestsRest, AddNewCarPositiveTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api RestAssure&#10;LoginTestsRest, AddNewCarPositiveTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
