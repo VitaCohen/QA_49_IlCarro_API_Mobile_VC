@@ -5,6 +5,7 @@ public interface Base_Api {
     String REGISTRATION_URL = "/v1/user/registration/usernamepassword";
     String LOGIN_URL = "/v1/user/login/usernamepassword";
     String ADD_NEW_CAR_URL = "/v1/cars";
+    String GET_ALL_USER_CAR_URL = "/v1/cars/my";
 
 
 
